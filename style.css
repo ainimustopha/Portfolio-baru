@@ -1,0 +1,365 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+}
+
+.center {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.btn-group {
+  margin-top: 40px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 25px;
+  margin: 10px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+.home-bg {
+  background: url("img/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+.overlay {
+  background: rgba(0,0,0,0.6);
+  height: 100vh;
+}
+
+.card-btn {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  margin: 15px;
+  background: white;
+  border-radius: 15px;
+  text-decoration: none;
+  color: black;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.card-btn img {
+  max-width: 120px;
+  height: auto;
+}
+
+.card-btn:hover {
+  transform: scale(1.05);
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;   /* PENTING */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.center {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .card-btn img {
+    max-width: 90px;
+  }
+
+}
+
+/* PC / LAPTOP */
+@media (min-width: 769px) {
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .card-btn img {
+    max-width: 120px;
+  }
+
+}
+
+.home-bg {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  color: #007bff;
+}
+
+.skill-bar {
+  background: #e0e0e0;
+  border-radius: 20px;
+  height: 12px;
+  margin-bottom: 15px;
+}
+
+.skill {
+  height: 12px;
+  border-radius: 20px;
+}
+
+/* SKILL LEVEL */
+.beginner { width: 30%; background: #ff9800; }
+.intermediate { width: 60%; background: #03a9f4; }
+.advanced { width: 85%; background: #4caf50; }
+
+.experience h3 {
+  margin-bottom: 5px;
+}
+
+.experience span {
+  font-size: 14px;
+  color: gray;
+}
+
+.card p {
+  text-align: justify;
+  line-height: 1.7;
+}
+
+.card {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font-size: 16px;
+}
+
+.card p {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: clamp(28px, 4vw, 40px);
+}
+
+h2 {
+  font-size: clamp(20px, 3vw, 26px);
+}
+
+.card p {
+  font-size: clamp(15px, 2.5vw, 16px);
+}
+
+.card p {
+  hyphens: auto;
+}
+
+.info-row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.label {
+  width: 160px;        /* tetap */
+  font-weight: bold;
+}
+
+.label::after {
+  content: " :";
+}
+
+.value {
+  flex: 1;
+}
+
+.label {
+  min-width: 180px;
+}
+
+@media (max-width: 600px) {
+  .info-row {
+    flex-direction: column;
+  }
+
+  .label {
+    margin-bottom: 5px;
+  }
+}
+
+
+
+/* EXPERIENCE SECTION - TEXT ALIGNMENT */
+.experience ul {
+  padding-left: 20px;
+}
+
+.experience li {
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  margin: 0;
+  padding: 12px;
+  text-align: center;
+  background: #020617;
+  color: white;
+}
+
+#map {
+  height: 90vh;
+}
+
+/* Label negeri */
+.state-label {
+  font-size: 11px;
+  font-weight: bold;
+  color: #0f172a;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+
+/* Label negeri */
+.state-label {
+  font-size: 11px;
+  font-weight: bold;
+  color: #020617;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+/* Legend */
+.legend {
+  background: white;
+  padding: 8px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #020617;
+}
+
+.legend i {
+  width: 14px;
+  height: 14px;
+  float: left;
+  margin-right: 6px;
+  opacity: 0.8;
+}
+
+.state-label {
+    background-color: rgba(255,255,255,0.8);
+    color: #000080;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #000080;
+    border-radius: 3px;
+    padding: 2px 4px;
+}
+
+.state-label {
+    background-color: white;
+    border: 1px solid blue;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    pointer-events: none; /* supaya label tak block klik */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Map container */
+#map {
+    height: 100vh;
+    width: 100%;
+}
+
+/* State labels tanpa kotak */
+.state-label {
+    background-color: transparent; /* tiada kotak */
+    color: #000080;               /* warna teks */
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    pointer-events: none;         /* supaya tak block klik */
+}
+
+/* Legend (kalau nak guna) */
+.legend {
+    background: white;
+    padding: 8px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #020617;
+}
+.legend i {
+    width: 14px;
+    height: 14px;
+    float: left;
+    margin-right: 6px;
+    opacity: 0.8;
+}
+

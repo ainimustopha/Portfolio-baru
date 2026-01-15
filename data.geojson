@@ -1,0 +1,17 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Location A",
+        "Category": "Sample Point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.686, 3.139]
+      }
+    }
+  ]
+}
+
